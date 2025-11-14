@@ -147,7 +147,7 @@ export default function Home(){
         <div className='isLoading'>
             <div className='load-overlay'>
                 {isLoad &&<div className="load-content">
-                    <img src='/img/buffer.png' alt='로딩 이미지' />
+                    <img src='../src/assets/img/buffer.png' alt='로딩 이미지' />
                     <p>불러오는 중...</p>
                 </div>}
             </div>

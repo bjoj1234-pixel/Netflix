@@ -72,7 +72,7 @@ const {genreMap}=useContext(SearchContext)
                                 <p className="middle-vote"><i className="fa-solid fa-star"></i> {(item.vote_average).toFixed(1)} <em>({item.vote_count})</em></p>
                                 <div className="hdline">
                                     <span className="middle-open">개봉일자 : {item.first_air_date || item.release_date}</span>
-                                    <img src="../../public/img/hd.png" alt="HD"/>
+                                    <img src="../../src/assets/img/hd.png" alt="HD"/>
                                 </div>
                             </div>
                             <button type="button" className="playMovie">▶︎ 재생하기</button>

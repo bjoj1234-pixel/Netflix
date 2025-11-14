@@ -28,9 +28,9 @@ export default function LoginPage(){
     return(
         <>
             <div className="background-img">
-                <Link to='/'><img className="toplogo" src="../../public/img/logoLong.png"/></Link>
+                <Link to='/'><img className="toplogo" src="../../src/assets/img/logoLong.png"/></Link>
                 <form onSubmit={loginHandler} className="login-form">
-                    <img className="logo" src='../../public/img/Netflix_N.png'/>
+                    <img className="logo" src='../../src/assets/img/Netflix_N.png'/>
                     <h1 className="loglogo">로그인</h1>
                     <input type="text"
                      placeholder="이메일 주소 또는 휴대폰 번호"

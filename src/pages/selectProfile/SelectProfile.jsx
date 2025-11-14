@@ -20,20 +20,20 @@ export default function SelectProfile(){
 
         <>
            <div className="select-wrap">
-                <Link to='/'><img className="toplogo" src="../../public/img/logoLong.png"/></Link>
+                <Link to='/'><img className="toplogo" src="../../src/assets/img/logoLong.png"/></Link>
                 <h1>넷플릭스를 시청할 프로필을 선택하세요.</h1>
                 <div className="profile-div">
                     <ul className="profile-ul">
                         <li className="profile-li">
-                            <Link to='/home' onClick={user1click} ><img className="pro-img" src="../../public/img/profileImg.png"/></Link>
+                            <Link to='/home' onClick={user1click} ><img className="pro-img" src="../../src/assets/img/profileImg.png"/></Link>
                             <p>박찬하</p>
                         </li>
                         <li className="profile-li">
-                            <Link to='/home' onClick={user2click}><img className="pro-img" src="../../public/img/profileImg2.png"/></Link>
+                            <Link to='/home' onClick={user2click}><img className="pro-img" src="../../src/assets/img/profileImg2.png"/></Link>
                             <p>김성중</p>
                         </li>
                         <li className="profile-li">
-                            <Link to='/home' onClick={user3click}><img className="pro-img" src="../../public/img/profileImg3.png"/></Link>
+                            <Link to='/home' onClick={user3click}><img className="pro-img" src="../../src/assets/img/profileImg3.png"/></Link>
                             <p>신동현</p>
                         </li>
                         <li className="profile-li">

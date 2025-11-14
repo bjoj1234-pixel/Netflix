@@ -20,7 +20,7 @@ body{
     height: 1000px;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
-    url('../../public/img/backg.jpg') center/cover no-repeat;
+    url('../../src/assets/img/backg.jpg') center/cover no-repeat;
 }
 .toplogo{
     position: absolute;
